@@ -1,0 +1,22 @@
+{
+	"item.morebows.copper_bow": "Arco de cobre",
+	"item.morebows.iron_bow": "Arco de hierro",
+	"item.morebows.golden_bow": "Arco de oro",
+	"item.morebows.emerald_bow": "Arco de esmeralda",
+	"item.morebows.diamond_bow": "Arco de diamante",
+	"item.morebows.netherite_bow": "Arco de netherita",
+	"item.morebows.damage_tooltip": "Daño de proyectil",
+	
+	"advancements.adventure.morebows.obtain_copper_bow.title": "Arco de cobre",
+	"advancements.adventure.morebows.obtain_copper_bow.description": "Un arco de cobre!",
+	"advancements.adventure.morebows.obtain_iron_bow.title": "Arco de hierro",
+	"advancements.adventure.morebows.obtain_iron_bow.description": "Un arco de hierro!",
+	"advancements.adventure.morebows.obtain_golden_bow.title": "Arco de oro",
+	"advancements.adventure.morebows.obtain_golden_bow.description": "Un arco de oro!",
+	"advancements.adventure.morebows.obtain_emerald_bow.title": "Arco de esmeralda",
+	"advancements.adventure.morebows.obtain_emerald_bow.description": "Un arco de esmeralda!",
+	"advancements.adventure.morebows.obtain_diamond_bow.title": "Arco de diamante",
+	"advancements.adventure.morebows.obtain_diamond_bow.description": "Un arco de diamante!",
+	"advancements.adventure.morebows.obtain_netherite_bow.title": "Arco de netherita",
+	"advancements.adventure.morebows.obtain_netherite_bow.description": "Un arco de netherita!"
+}

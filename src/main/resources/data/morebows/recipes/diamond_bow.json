@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#1#",
+    "###"
+  ],
+  "key": {
+    "1": {
+      "item": "morebows:emerald_bow"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "morebows:diamond_bow",
+    "count": 1
+  }
+}
