@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "morebows:emerald_bow"
+		},
+		"title": {
+			"translate": "advancements.adventure.morebows.obtain_emerald_bow.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.morebows.obtain_emerald_bow.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "morebows:adventure/obtain_golden_bow",
+	"criteria": {
+		"emerald_bow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"morebows:emerald_bow"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"emerald_bow"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

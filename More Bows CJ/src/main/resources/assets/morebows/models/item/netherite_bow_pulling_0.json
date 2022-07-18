@@ -1,0 +1,6 @@
+{
+    "parent": "morebows:item/netherite_bow",
+    "textures": {
+        "layer0": "morebows:item/netherite_bow_pulling_0"
+    }
+}

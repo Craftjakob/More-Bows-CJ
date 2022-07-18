@@ -1,0 +1,6 @@
+{
+    "parent": "morebows:item/emerald_bow",
+    "textures": {
+        "layer0": "morebows:item/emerald_bow_pulling_1"
+    }
+}

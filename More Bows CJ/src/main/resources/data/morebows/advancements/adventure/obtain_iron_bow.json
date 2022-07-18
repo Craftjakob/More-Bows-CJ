@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "morebows:iron_bow"
+		},
+		"title": {
+			"translate": "advancements.adventure.morebows.obtain_iron_bow.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.morebows.obtain_iron_bow.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "morebows:adventure/obtain_copper_bow",
+	"criteria": {
+		"iron_bow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"morebows:iron_bow"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"iron_bow"
+		]
+	],
+	"rewards": {
+		"experience": 10
+	}
+}

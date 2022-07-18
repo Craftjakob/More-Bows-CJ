@@ -1,0 +1,40 @@
+{
+	"display": {
+		"icon": {
+			"item": "morebows:golden_bow"
+		},
+		"title": {
+			"translate": "advancements.adventure.morebows.obtain_golden_bow.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.morebows.obtain_golden_bow.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "morebows:adventure/obtain_iron_bow",
+	"criteria": {
+		"golden_bow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"morebows:golden_bow"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"golden_bow"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}
