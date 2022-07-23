@@ -5,6 +5,7 @@
 	"item.morebows.emerald_bow": "Emerald Bow",
 	"item.morebows.diamond_bow": "Diamond Bow",
 	"item.morebows.netherite_bow": "Netherite Bow",
+	"item.morebows.gilded_netherite_bow": "Gilded Netherite Bow",
 	"item.morebows.damage_tooltip": "Projectile Damage",
 	
 	"advancements.adventure.morebows.obtain_copper_bow.title": "Copper Bow",
@@ -18,5 +19,7 @@
 	"advancements.adventure.morebows.obtain_diamond_bow.title": "Diamond Bow",
 	"advancements.adventure.morebows.obtain_diamond_bow.description": "A bow of diamond!",
 	"advancements.adventure.morebows.obtain_netherite_bow.title": "Netherite Bow",
-	"advancements.adventure.morebows.obtain_netherite_bow.description": "A bow of netherite!"
+	"advancements.adventure.morebows.obtain_netherite_bow.description": "A bow of netherite!",
+	"advancements.adventure.morebows.obtain_gilded_netherite_bow.title": "Gilded Netherite Bow",
+	"advancements.adventure.morebows.obtain_gilded_netherite_bow.description": "A bow of gilded netherite!"
 }

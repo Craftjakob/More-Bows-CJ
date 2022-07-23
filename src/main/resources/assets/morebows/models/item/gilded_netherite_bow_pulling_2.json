@@ -1,0 +1,6 @@
+{
+    "parent": "morebows:item/gilded_netherite_bow",
+    "textures": {
+        "layer0": "morebows:item/gilded_netherite_bow_pulling_2"
+    }
+}

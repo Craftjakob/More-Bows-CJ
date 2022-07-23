@@ -1,2 +1,4 @@
 1. 
 Config Maybe???
+2.
+Add Support for my Gilded Netherite Mod

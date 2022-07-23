@@ -84,12 +84,18 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+	}
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19-41.0.100'
-
+    minecraft 'net.minecraftforge:forge:1.19-41.0.107'
+	//runtimeOnly fg.deobf("curse.maven:gildednetheritecjedition-646970:3886196")
+	//runtimeOnly fg.deobf("curse.maven:neat-238372:3878735")
 }
 
 jar {

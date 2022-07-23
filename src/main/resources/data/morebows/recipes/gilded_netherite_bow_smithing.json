@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "morebows:netherite_bow"
+  },
+  "addition": {
+    "item": "gildednetherite:gilded_netherite_ingot"
+  },
+  "result": {
+    "item": "morebows:gilded_netherite_bow"
+  }
+}
