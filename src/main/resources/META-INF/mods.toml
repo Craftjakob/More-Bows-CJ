@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/Craftjakob/More-Bows-CJ/issues"
 
 [[mods]]
 modId="morebows"
-version="1.0"
+version="${file.jarVersion}"
 displayName="More Bows"
 logoFile="icon.png"
 credits="Thank you for installing this mod!"
