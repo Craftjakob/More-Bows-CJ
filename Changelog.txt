@@ -1,0 +1,11 @@
+MORE BOWS CJ VERSION: 1.1
+
+	1. Fix server crash
+
+	2. Server compatility
+
+	3. Support for Gilded Netherite CJ Edition
+
+	4. Forge Update to 41.1.0
+
+	5. Removed useless code
