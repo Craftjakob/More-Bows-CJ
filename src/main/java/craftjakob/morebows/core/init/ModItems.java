@@ -19,6 +19,6 @@ public class ModItems {
 	public static final RegistryObject<Item> EMERALD_BOW = BOWS.register("emerald_bow", () -> new BowModItems(BowTiers.EMERALD, (new Item.Properties()).tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<Item> DIAMOND_BOW = BOWS.register("diamond_bow", () -> new BowModItems(BowTiers.DIAMOND, (new Item.Properties()).tab(CreativeModeTab.TAB_COMBAT)));
 	public static final RegistryObject<Item> NETHERITE_BOW = BOWS.register("netherite_bow", () -> new BowModItems(BowTiers.NETHERITE, (new Item.Properties()).tab(CreativeModeTab.TAB_COMBAT)));
-	//public static final RegistryObject<Item> GILDED_NETHERITE_BOW = BOWS.register("gilded_netherite_bow", () -> new BowItems(BowTiers.GILDED_NETHERITE, (new Item.Properties()).tab(ModCreativeModeTab.GILDED_NETHERITE_TAB)));
+	//public static final RegistryObject<Item> GILDED_NETHERITE_BOW = BOWS.register("gilded_netherite_bow", () -> new BowItems(BowTiers.GILDED_NETHERITE, (new Item.Properties()).tab(ModCreativeModeTab.GILDED_NETHERITE_TAB).fireResistant()));
 }
 
