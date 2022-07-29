@@ -93,7 +93,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19-41.0.107'
+    minecraft 'net.minecraftforge:forge:1.19-41.1.0'
 	//runtimeOnly fg.deobf("curse.maven:gildednetheritecjedition-646970:3886196")
 	//runtimeOnly fg.deobf("curse.maven:neat-238372:3878735")
 }
