@@ -4,7 +4,7 @@ MORE BOWS CJ VERSION: 1.1
 
 	2. Server compatility
 
-	3. Support for Gilded Netherite CJ Edition
+	3. Support for Gilded Netherite CJ Edition in source code
 
 	4. Forge Update to 41.1.0
 
