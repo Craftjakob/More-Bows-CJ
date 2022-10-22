@@ -1,10 +1,29 @@
+MORE BOWS CJ VERSION: 1.2.0
+
+	1. Netherite Bow has no fire-Resistant? Fixed 
+	
+	2. Added Gilded Netherite Bow for my Mod Gilded Netherite 
+		WARNING: You don't repair the bow with Gilded Netherite Ingot you repair it with Netherite Ingot, because I don't know how I can say if the Mod Gilded Netherite is installed than you can repair it with the ingot.  
+		I can say that you need the mod and then it works, but this is not fine.
+	
+MORE BOWS CJ VERSION: 1.1.1
+
+	1. Now you can upgrade your Copper/Iron/Gold/Emerald/Diamond Bow 
+	in Smithing Table with the block of the material for the next tier 
+	and by doing so you will not lose the enchantments
+	
+	2. A little bit better code.
+	
+	3. Updated Logo in Higher Quality
+
+
 MORE BOWS CJ VERSION: 1.1
 
 	1. Fix server crash
 
 	2. Server compatility
 
-	3. Support for Gilded Netherite CJ Edition in source code
+	3. Support for Gilded Netherite CJ Edition
 
 	4. Forge Update to 41.1.0
 

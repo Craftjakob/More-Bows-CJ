@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:bow"
+  },
+  "addition": {
+    "item": "minecraft:copper_block"
+  },
+  "result": {
+    "item": "morebows:copper_bow"
+  }
+}

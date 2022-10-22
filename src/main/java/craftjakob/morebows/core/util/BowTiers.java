@@ -2,7 +2,6 @@ package craftjakob.morebows.core.util;
 
 import java.util.function.Supplier;
 
-//import craftjakob.gildednetherite.init.ModItems;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -27,10 +26,10 @@ public enum BowTiers implements BowTier {
 	   }),
 	   NETHERITE(2415, 4.0f, 4, () -> {
 	      return Ingredient.of(Items.NETHERITE_INGOT);
-	   });/*
-	   GILDED_NETHERITE(2555, 5.0f, 4, () -> {
-		  return Ingredient.of(ModItems.GILDED_NETHERITE_INGOT.get());
-	   });*/
+	   }),
+	   GILDED_NETHERITE(2555, 5.0f, 5, () -> {
+		  return Ingredient.of(Items.NETHERITE_INGOT);
+	   });
 
 	   private final int uses;
 	   private final float damage;
@@ -41,7 +40,7 @@ public enum BowTiers implements BowTier {
 	      this.uses = uses;
 	      this.damage = damage;
 	      this.enchantmentValue = enchantmentValue;
-	      this.repairIngredient = new LazyLoadedValue<>(repairIngredient);
+	      this.repairIngredient = new LazyLoadedValue<Ingredient>(repairIngredient);
 	   }
 
 	   public int getUses() {

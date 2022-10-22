@@ -17,16 +17,15 @@ public class MoreBows {
 	public static final String MODID = "morebows";
     private static final Logger LOGGER = LogManager.getLogger();
     
-    public MoreBows() {
+    public MoreBows() { 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        
         ModItems.BOWS.register(eventBus);
         
         eventBus.addListener(this::setup);
     }
-    private void setup(final FMLClientSetupEvent event) {
+    private void setup(final FMLClientSetupEvent event) {  	
     	
-        LOGGER.info("More Bows is loaded!");
+        LOGGER.info("More Bows is detected!");
         
         event.enqueueWork(() -> {
     	ModItems.BOWS.getEntries().forEach(item -> {

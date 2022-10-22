@@ -18,27 +18,24 @@ public class BowModItems extends BowItem {
 		super(properties.durability(tier.getUses()));
 		this.tier = tier;
 	}
-
 	@Override
 	public AbstractArrow customArrow(AbstractArrow arrow) {
 		arrow.setBaseDamage(arrow.getBaseDamage() + this.tier.getAttackDamageBonus());
 		return arrow;
 	}
-	
 	@Override
 	public int getEnchantmentValue() {
-		return super.getEnchantmentValue();
+		return this.tier.getEnchantmentValue();
 	}
-	
 	@Override
-	public boolean isValidRepairItem(ItemStack ItemStack, ItemStack p_41403_) {
-		return this.tier.getRepairIngredient().test(p_41403_);
+	public boolean isValidRepairItem(ItemStack ItemStack, ItemStack ItemStack1) {
+		return this.tier.getRepairIngredient().test(ItemStack1);
 	}
-	
 	@Override
-	public void appendHoverText(ItemStack ItemStack, Level Level, List<Component> p_41423_, TooltipFlag TooltipFlag) {
-		p_41423_.add(Component.literal("+" + Float.toString(this.tier.getAttackDamageBonus()) + " ")
-				.append(Component.translatable("item.morebows.damage_tooltip")).withStyle(ChatFormatting.GREEN));
-		super.appendHoverText(ItemStack, Level, p_41423_, TooltipFlag);
+	public void appendHoverText(ItemStack ItemStack, Level Level, List<Component> List, TooltipFlag TooltipFlag) {
+		List.add(Component.literal("+" + Float.toString(this.tier.getAttackDamageBonus()) + " ")
+			.append(Component.translatable("item.morebows.damage_tooltip"))
+			.withStyle(ChatFormatting.GREEN));
+		super.appendHoverText(ItemStack, Level, List, TooltipFlag);
 	}
 }

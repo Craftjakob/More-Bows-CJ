@@ -1,7 +1,2 @@
 1. 
 Config Maybe???
-2.
-Add Support for my Gilded Netherite Mod Finish! But???
-IF you install this Mod you need Gilded Netherite, but this is not good.
-IF the player has the Mod Gilded Netherite installed, then the new content is there. 
-That's a lot better. But how? I make it so that you NEED the Mod!

@@ -4,7 +4,7 @@
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.1'
+version = '1.2.0'
 group = 'craftjakob.morebows'
 archivesBaseName = 'MoreBows-CJ-forge-mc1.19'
 
@@ -17,61 +17,42 @@ minecraft {
     runs {
         client {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             property 'forge.enabledGameTestNamespaces', 'morebows'
-
             mods {
                 morebows  {
                     source sourceSets.main
                 }
             }
         }
-
         server {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             property 'forge.enabledGameTestNamespaces', 'morebows'
-
             mods {
                 morebows  {
                     source sourceSets.main
                 }
             }
         }
-        
         gameTestServer {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             property 'forge.enabledGameTestNamespaces', 'morebows'
-
             mods {
                 morebows  {
                     source sourceSets.main
                 }
             }
         }
-
         data {
             workingDirectory project.file('run')
-
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
-
             args '--mod', 'morebows', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-
             mods {
                 morebows  {
                     source sourceSets.main
@@ -89,13 +70,12 @@ repositories {
         content {
             includeGroup "curse.maven"
         }
-	}
+    }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19-41.1.0'
-	//runtimeOnly fg.deobf("curse.maven:gildednetheritecjedition-646970:3886196")
-	//runtimeOnly fg.deobf("curse.maven:neat-238372:3878735")
+	//runtimeOnly fg.deobf("curse.maven:gildednetheritecjedition-646970:3886196") //old 3886196 new 3916809
 }
 
 jar {
@@ -103,7 +83,7 @@ jar {
         attributes([
                 "Specification-Title"     : "More Bows",
                 "Specification-Vendor"    : "Craftjakob",
-                "Specification-Version"   : "1.1", 
+                "Specification-Version"   : "1", 
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "Craftjakob",
